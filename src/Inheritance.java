@@ -7,6 +7,7 @@ public class Inheritance {
         v1.move();
         s1.move();
         s1.attack();
+
     }
 }
 class Monster {
@@ -42,7 +43,7 @@ class Skeleton extends Monster {
     }
 
     @Override
-    void attack() {
+     void attack() {
         super.attack();
     }
 }
